@@ -43,7 +43,7 @@ a {
 ## Installation
 
 ```bash
-npm install stylelint-config-wxss --save-dev
+npm i stylelint-config-standard stylelint-config-wxss --save-dev
 ```
 
 ## Usage
