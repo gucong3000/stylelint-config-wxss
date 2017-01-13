@@ -2,6 +2,7 @@
 require("stylelint/lib/reference/keywordSets.js").lengthUnits.add("rpx")
 
 module.exports = {
+  "extends": "stylelint-config-standard",
   "rules": {
     "at-rule-no-vendor-prefix": true,
     "length-zero-no-unit": true,

@@ -29,6 +29,7 @@
     "stylelint": "^7.6.0"
   },
   "peerDependencies": {
+    "stylelint-config-standard": "^15.0.1",
     "stylelint": "^7.6.0"
   },
   "scripts": {
