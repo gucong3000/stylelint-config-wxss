@@ -18,8 +18,6 @@ describe("flags warnings with invalid css", () => {
       code: "a { top: 0rpx; }",
       config,
     }).then(data => {
-      return data
-    }).then(data => {
       expect(data.results[0].warnings[0].rule).toBe("length-zero-no-unit")
       expect(data.errored).toBeTruthy()
     })
@@ -28,8 +26,6 @@ describe("flags warnings with invalid css", () => {
     return stylelint.lint({
       code: "@-webkit-keyframes { 0% { top: 0; } }",
       config,
-    }).then(data => {
-      return data
     }).then(data => {
       expect(data.results[0].warnings[0].rule).toBe("at-rule-no-vendor-prefix")
       expect(data.errored).toBeTruthy()
@@ -40,8 +36,6 @@ describe("flags warnings with invalid css", () => {
       code: "@media (-webkit-min-device-pixel-ratio: 1) {}",
       config,
     }).then(data => {
-      return data
-    }).then(data => {
       expect(data.results[0].warnings[0].rule).toBe("media-feature-name-no-vendor-prefix")
       expect(data.errored).toBeTruthy()
     })
@@ -50,8 +44,6 @@ describe("flags warnings with invalid css", () => {
     return stylelint.lint({
       code: "a { -moz-columns: 2; }",
       config,
-    }).then(data => {
-      return data
     }).then(data => {
       expect(data.results[0].warnings[0].rule).toBe("property-no-vendor-prefix")
       expect(data.errored).toBeTruthy()
@@ -62,8 +54,6 @@ describe("flags warnings with invalid css", () => {
       code: "input::-moz-placeholder {}",
       config,
     }).then(data => {
-      return data
-    }).then(data => {
       expect(data.results[0].warnings[0].rule).toBe("selector-no-vendor-prefix")
       expect(data.errored).toBeTruthy()
     })
@@ -72,8 +62,6 @@ describe("flags warnings with invalid css", () => {
     return stylelint.lint({
       code: "a { display: -webkit-flex; }",
       config,
-    }).then(data => {
-      return data
     }).then(data => {
       expect(data.results[0].warnings[0].rule).toBe("value-no-vendor-prefix")
       expect(data.errored).toBeTruthy()

@@ -17,15 +17,25 @@ To see the rules that this config uses, please read the [config itself](./index.
 ## Example
 
 ```css
-{
-  "defaultSeverity": "error",
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-wxss"
-  ]
+/* Error: selector-max-compound-selectors */
+a b {
+  top: 0rpx;
 }
 
+/* Error: length-zero-no-unit */
+a {
+  top: 0rpx;
+}
 
+/* Error: property-no-vendor-prefix */
+a {
+  -moz-columns: 2;
+}
+
+/* Error: value-no-vendor-prefix */
+a {
+  display: -webkit-flex;
+}
 ```
 
 *Note: the config is tested against this example, as such the example contains plenty of CSS syntax, formatting and features.*
@@ -42,10 +52,7 @@ If you've installed `stylelint-config-wxss` locally within your project, just se
 
 ```json
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-wxss"
-  ]
+  "extends": "stylelint-config-wxss"
 }
 ```
 
@@ -53,10 +60,7 @@ If you've globally installed `stylelint-config-wxss` using the `-g` flag, then y
 
 ```json
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-wxss"
-  ]
+  "extends": "stylelint-config-wxss"
 }
 ```
 
@@ -68,10 +72,7 @@ For example, to change the `indentation` to tabs, turn off the `number-leading-z
 
 ```json
 {
-  "extends": [
-    "stylelint-config-standard",
-    "stylelint-config-wxss"
-  ],
+  "extends": "stylelint-config-wxss",
   "rules": {
     "indentation": "tab",
     "number-leading-zero": null,
