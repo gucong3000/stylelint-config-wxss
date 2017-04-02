@@ -30,7 +30,7 @@
     "stylelint-config-standard": "^16.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.9.0",
+    "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0"
   },
   "scripts": {
