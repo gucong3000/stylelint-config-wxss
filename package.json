@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-wxss",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "The WeChat wxss syntax config for stylelint",
   "keywords": [
     "stylelint",
@@ -30,8 +30,8 @@
     "stylelint-config-standard": "^17.0.0"
   },
   "peerDependencies": {
-    "stylelint": "^7.10.1",
-    "stylelint-config-standard": "^16.0.0"
+    "stylelint": "^8.0.0",
+    "stylelint-config-standard": "^17.0.0"
   },
   "scripts": {
     "lint:js": "eslint . --ignore-path .gitignore",
