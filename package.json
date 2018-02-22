@@ -26,7 +26,7 @@
     "remark-cli": "^5.0.0",
     "remark-preset-lint-consistent": "^2.0.0",
     "remark-preset-lint-recommended": "^3.0.0",
-    "stylelint": "^8.0.0",
+    "stylelint": "^9.1.1",
     "stylelint-config-standard": "^18.0.0"
   },
   "peerDependencies": {
