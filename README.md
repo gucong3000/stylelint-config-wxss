@@ -1,6 +1,9 @@
 # stylelint-config-wxss
 
-[![NPM version](http://img.shields.io/npm/v/stylelint-config-wxss.svg)](https://www.npmjs.org/package/stylelint-config-wxss) [![Build Status](https://travis-ci.org/gucong3000/stylelint-config-wxss.svg?branch=master)](https://travis-ci.org/gucong3000/stylelint-config-wxss) [![Build status](https://ci.appveyor.com/api/projects/status/o8rfhyax6n7bjnlt/branch/master?svg=true)](https://ci.appveyor.com/project/gucong3000/stylelint-config-wxss/branch/master)
+[![NPM version](https://img.shields.io/npm/v/stylelint-config-wxss.svg?style=flat-square)](https://www.npmjs.com/package/stylelint-config-wxss)
+[![AppVeyor](https://img.shields.io/appveyor/ci/gucong3000/stylelint-config-wxss.svg)](https://ci.appveyor.com/project/gucong3000/stylelint-config-wxss)
+[![codecov](https://img.shields.io/codecov/c/github/gucong3000/stylelint-config-wxss.svg)](https://codecov.io/gh/gucong3000/stylelint-config-wxss)
+[![David](https://img.shields.io/david/dev/gucong3000/stylelint-config-wxss.svg)](https://david-dm.org/gucong3000/stylelint-config-wxss?type=dev)
 
 > The WeChat wxss syntax config for stylelint.
 

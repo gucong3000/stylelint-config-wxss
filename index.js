@@ -5,7 +5,6 @@ module.exports = {
   "extends": "stylelint-config-standard",
   "rules": {
     "at-rule-no-vendor-prefix": true,
-    "length-zero-no-unit": true,
     "media-feature-name-no-vendor-prefix": true,
     "property-no-vendor-prefix": true,
     "selector-max-compound-selectors": 1,
